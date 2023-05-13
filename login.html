@@ -2,271 +2,74 @@
 
 <html lang="pt-br">
 
+ <head>
 
+<meta charset="UTF-8">
 
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<head>
-
-    <meta charset="UTF-8">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
-
-    <title>Layout Flex-BOX</title>
-
-    <link rel="stylesheet" href="./css/estilo.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 
 
-    <script src="./js/login.js" defer></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-   
+
+
+
+<script src="./js/login.js" defer></script>
+
+<title>Entrar</title>
 
 </head>
-
-
-
 
 <body>
 
 
 
 
-    <header class="cabecalho">
+<div>
 
-        <img src="./img/logo.png" alt="Monitor de computador.">
+<form action="index.html" method="get" onsubmit="return false">
 
-        <nav>
+ <fieldset>
 
-            <a href="#">Item-1</a>
+<legend>Entrar</legend>
 
-            <a href="#">Item-2</a>
+<div>
 
-            <a href="#">Item-3</a>
+<label for="idEmail">Email</label>
 
-        </nav>
+<input type="email" name="txtEmail" id="idEmail" placeholder="Email">
 
-    </header>
+</div>
 
+<div>
 
+<label for="idPass">Senha</label>
 
+<input type="password" name="txtPass" id="idPass" placeholder="Senha">
 
-    <h2 class="tit-foto">Seção de Fotos</h2>
+<i class="fa fa-eye" aria-hidden="true"></i>
 
+</div>
 
+<div>
 
+<button type="submit" id="btnSubmit">Entrar</button>
 
-    <!-- <button onclick="alert(this.innerText)">CLICK</button> -->
+</div>
 
+</fieldset>
 
+</form>
 
-
-    <button id="meu-btn">CLICK</button>
-
-   
-
-
-
-
-    <script>
-
-        //COMENTÁRIO DE LINHA
-
-        /*
-
-            COMENTÁRIO DE BLOCO
-
-        */
-
-
-
-
-        //Declarando variáveis com a palavra reservada (var);
-
-        var nr1 = 10;
-
-        var nr2 = 5;
-
-
-
-
-        //Imprimindo as variáveis com a classe ( console );
-
-        // console.log(nr1);
-
-        // console.log(nr2);
-
-
-
-
-        //Realizar todas as operações aritméticas e imprimir com
-
-        //console.log()
-
-
-
-
-        //ADIÇÃO
-
-        //console.log("RESULTADO: " + (nr1+nr2));
-
-        //console.log(`RESULTADO: ${nr1+nr2}`);
-
-        //SUBTRAÇÃO
-
-        //console.log("RESULTADO: " + (nr1-nr2));
-
-        //MULTIPLICAÇÃO
-
-        //console.log("RESULTADO: " + (nr1*nr2));
-
-        //DIVISÃO
-
-        //console.log("RESULTADO: " + (nr1/nr2));
-
-        //RESTO
-
-        //console.log("RESULTADO: " + (nr1%nr2));
-
-
-
-
-        //Repita as operações e adicione o seguinte texto antes e
-
-        // inclusa a operação de apresentação do resto da última operação.
-
-        //RESULTADO :
-
-
-
-
-    </script>
-
-
-
-
-    <section class="conteudo">
-
-        <div>
-
-            <img src="./img/lobo1.jpg" alt="Lobo">
-
-            <p>Legenda</p>
-
-        </div>
-
-        <div>
-
-            <img src="./img/lobo2.jpg" alt="Lobo">
-
-            <p>Legenda</p>
-
-        </div>
-
-        <div>
-
-            <img src="./img/lobo3.jpg" alt="Lobo">
-
-            <p>Legenda</p>
-
-        </div>
-
-        <div>
-
-            <img src="./img/lobo4.jpg" alt="Lobo">
-
-            <p>Legenda</p>
-
-        </div>
-
-        <div>
-
-            <img src="./img/lobo5.jpg" alt="Lobo">
-
-            <p>Legenda</p>
-
-        </div>
-
-        <div>
-
-            <img src="./img/lobo6.jpg" alt="Lobo">
-
-            <p>Legenda</p>
-
-        </div>
-
-    </section>
-
-
-
-
-    <footer>
-
-        <h2>Fale Conosco</h2>
-
-        <nav>
-
-            <a href="#"><img src="./img/social-1.png" alt="Logo github"></a>
-
-            <a href="#"><img src="./img/social-2.png" alt="Logo facebook"></a>
-
-            <a href="#"><img src="./img/social-3.png" alt="Logo twitter"></a>
-
-        </nav>
-
-
-
-
-        <div>
-
-                <form action="index.html" method="get" onsubmit="return false">
-    
-                    ><fieldset>
-    
-                        <legend>Contato</legend>
-    
-                        <div>
-    
-                            <label for="idEmail">Email</label>
-    
-                            <input type="email" name="txtEmail" id="idEmail" placeholder="Email">
-    
-                        </div>
-    
-                        <div>
-    
-                                <label for="idSenha">Senha</label>
-                                <input type="password" name="txtNm" id="idSenha" placeholder="Senha">
-                                <i class="fa fa-eye" aria-hidden="true"></i>
-    
-                        </div>
-    
-                        <div>
-    
-                            <button type="submit" id="btnSubmit">Entrar</button>
-    
-                        </div>
-    
-                    </fieldset>
-    
-                </form>
-    
-            </div>
-
-
-
-
-    </footer>
+</div>
 
 
 
 
 </body>
-
-
-
 
 </html>
