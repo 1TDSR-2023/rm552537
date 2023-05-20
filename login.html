@@ -1,75 +1,39 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
- <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<meta charset="UTF-8">
+    <script src="./js/login.js" defer></script>
 
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-
-
-<script src="./login.js" defer></script>
-
-<title>Entrar</title>
-
+    <title>Entrar</title>
 </head>
-
 <body>
 
-
-<div id="msgStatus"></div>
-
-<div>
-
-<form action="index.html" method="get" onsubmit="return false">
-
- <fieldset>
-
-<legend>Entrar</legend>
-
-<div>
-
-<label for="idEmail">Email</label>
-
-<input type="email" name="txtEmail" id="idEmail" placeholder="Email">
-
-</div>
-
-<div>
-
-<label for="idPass">Senha</label>
-
-<input type="password" name="txtPass" id="idPass" placeholder="Senha">
-
-<i class="fa fa-eye" aria-hidden="true"></i>
-
-</div>
-
-<div>
-
-<button type="submit" id="btnSubmit">Entrar</button>
-
-</div>
-
-</fieldset>
-
-</form>
-
-</div>
-
-
-
+    <div id="msgStatus"></div>
+    
+    <div>
+        <form action="index.html" method="GET" onsubmit="return false">
+            <fieldset>
+                <legend>Entrar</legend>
+                <div>
+                    <label for="idEmail">Email</label>
+                    <input type="email" name="txtEmail" id="idEmail" placeholder="Email">
+                </div>
+                <div>
+                    <label for="idPass">Senha</label>
+                    <input type="password" name="txtPass" id="idPass" placeholder="Senha">
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+                </div>
+                <div>
+                    <button type="submit" id="btnSubmit">Entrar</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
 
 </body>
-
 </html>
